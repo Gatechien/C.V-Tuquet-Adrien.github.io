@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #505058;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.section_right {
+    width: 600px;
+    background-color: white;
+}
+
+h1 {
+    color: #3a4257;
+    text-align: left;
+    font-weight: bold;
+}
+.header_title {
+    margin-top: 100px;
+    margin-left: 16px;
+    margin-right: 32px;
+}
+
+header {
+    border-bottom: 2px solid #f7ac67;
+}
+
+.triangle_orange {
+    background-color: #f7ac67;
+}
+
+.triangle_bleu {
+    background-color: #3a4257;
+}
+
+.title_h2 {
+    color: #f7ac67;
+}
+.diplome {
+    border-bottom: 2px solid #f7ac67;
+    margin-left: 16px;
+    margin-right: 32px;
+}
+.exp_pro {
+    margin-left: 16px;
+    margin-right: 32px;
+}
+
+footer {
+    width: 300px;
+    background-color: lightgrey;
+}
+
+.section_left {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.profil_img {
+    width: 150px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profil_img:hover {
+    width: 200px;
+    transition: 1s
+}
+
+.footer_h3 {
+    background-color: white;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: block;
+}
+
+.contact {
+    margin-left: 16px;
+    margin-right: 16px;
+    line-height: 20px;
+}
+
+.logiciels {
+    margin-left: 16px;
+    margin-right: 16px;
+    line-height: 20px;
+}
+
+.centre-interet {
+    margin-left: 16px;
+    margin-right: 16px;
+    line-height: 20px;
+}
