@@ -7,9 +7,15 @@ body {
     flex-direction: row-reverse;
 }
 
+.section_totale {
+    width: 900px;
+    display: flex;
+}
+
 .section_right {
     width: 600px;
     background-color: white;
+    position: relative;
 }
 
 h1 {
@@ -28,11 +34,15 @@ header {
 }
 
 .triangle_orange {
-    background-color: #f7ac67;
+    border-top: 220px solid #f7ac67;
+    border-left: 600px solid transparent;
+    position: absolute;
 }
 
 .triangle_bleu {
-    background-color: #3a4257;
+    border-top: 270px solid #3a4257;
+    border-right: 400px solid transparent;
+    position: relative;
 }
 
 .title_h2 {
@@ -56,7 +66,7 @@ footer {
 .section_left {
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
+    position: relative;
 }
 
 .profil_img {
