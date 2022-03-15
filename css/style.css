@@ -1,10 +1,20 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
     background-color: #505058;
+    margin: 0 auto;
     width: 900px;
-    margin: auto;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 900px;
     display: flex;
     flex-direction: row-reverse;
+    position:relative;
+}
+
+.container__background {
+    position: absolute;
+    z-index: 1;
 }
 
 .section_totale {
@@ -37,28 +47,31 @@ header {
     border-top: 220px solid #f7ac67;
     border-left: 600px solid transparent;
     position: absolute;
+    left: 300px;
 }
 
 .triangle_bleu {
     border-top: 270px solid #3a4257;
-    border-right: 400px solid transparent;
-    position: relative;
+    border-right: 440px solid transparent;
+    position: absolute;
 }
 
 .title_h2 {
     color: #f7ac67;
 }
+
 .diplome {
     border-bottom: 2px solid #f7ac67;
     margin-left: 16px;
     margin-right: 32px;
 }
+
 .exp_pro {
     margin-left: 16px;
     margin-right: 32px;
 }
 
-footer {
+.nav {
     width: 300px;
     background-color: lightgrey;
 }
@@ -67,6 +80,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    width: 300px;
+    background-color: lightgray;
 }
 
 .profil_img {
@@ -74,14 +89,16 @@ footer {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    z-index: 2;
 }
 
 .profil_img:hover {
     width: 200px;
-    transition: 1s
+    transition: 1s;
+    z-index: 2;
 }
 
-.footer_h3 {
+h3 {
     background-color: white;
     margin-left: 16px;
     margin-right: 16px;
